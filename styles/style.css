@@ -1,4 +1,3 @@
-header,
 div,
 body,
 section {
@@ -17,61 +16,70 @@ section {
 }
 
 .header {
-  display: flex;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
+  display: flex;
+  position: relative;
   /* выше установили ограничения для секции */
 }
 
-/*.header__logo {
+.logo_place_header {
   position: absolute;
   width: 228px;
   height: 32px;
-}
-
-.logo_place_header {
   left: 64px;
   top: 30px;
+  z-index: 2;
 }
 
 .header__title {
-  align-self: center;
-  width: 730px;
+  max-width: 730px;
+  width: 100%;
+  font-weight: bold;
   font-size: 102px;
-  font-style: bold;
+  line-height: 96px;
   margin-left: 64px;
+  align-self: center;
+  z-index: 2;
+
 }
 
 .header__subtitle {
   position: absolute;
+  max-width: 388px;
+  width: 100%;
   left: 64px;
   bottom: 30px;
   font-size: 18px;
   line-height: 25px;
-  font-style: normal;
+  font-weight: normal;
+  z-index: 2;
 }
 
-*/
+.header_link {
+  text-decoration: none;
+}
+
 .header__main-illustration {
-  display: flex;
-  position: absolute;
-  align-self: flex-end;
-  justify-content: flex-end;
-  background-color: transparent;
+  background-image: url("/images/header-image.png");
+  background-size: cover;
   width: 765px;
   height: 608px;
-  /*
-
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента 
 .header__square-pic {
   position: absolute;
+  right: 0;
+  top: 64px;
   height: 568px;
   width: 568px;
-  background-color: #2f80ed;*/
+  background-color: #2f80ed;
 }
 
 /* и элемента с модификатором вида ключ-значение 
