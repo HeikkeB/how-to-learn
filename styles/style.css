@@ -82,6 +82,45 @@ section {
   background-color: #2f80ed;
 }
 
+.description__two-columns {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding: 100px;
+}
+
+.two-columns__brief {
+  display: flex;
+  flex-direction: column;
+  width: 175px;
+  color: #2f80ed;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-colums__paragraph {
+  margin: 0 0 30px;
+}
+
+.two-colums__paragraph:last-child {
+  margin-top: 0;
+}
+
+.two-columns__span-accent {
+  font-weight: bold;
+}
+
 /* и элемента с модификатором вида ключ-значение 
 .table__cell_theme_dark {
   width: 200px;
