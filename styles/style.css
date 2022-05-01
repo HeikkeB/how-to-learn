@@ -1,11 +1,7 @@
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -16,7 +12,6 @@
   background-color: #f2f2f2;
   display: flex;
   position: relative;
-  /* выше установили ограничения для секции */
 }
 
 .logo_place_header {
@@ -81,6 +76,7 @@
   justify-content: space-between;
   width: 80%;
   padding: 100px;
+  padding-bottom: 0;
 }
 
 .two-columns__brief {
@@ -109,6 +105,7 @@
 
 .two-colums__paragraph:last-child {
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .two-columns__span-accent {
@@ -119,6 +116,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 100px auto;
 }
 
 .digits__title {
@@ -127,8 +125,7 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
-  margin: 100px auto 20px auto;
-
+  margin: 0px auto 20px auto;
 }
 
 .digits__subtitle {
@@ -146,7 +143,7 @@
   padding-top: 60px;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0 auto 100px auto;
+  margin-top: 0;
   padding: 0;
   list-style-type: none;
 }
@@ -286,21 +283,17 @@
   width: 877px;
   height: 877px;
   z-index: -1;
-
 }
 
 .footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  border: 1px solid red;
   min-height: 350px;
   background-color: #1f1f1f;
-
 }
 
 .footer__columns {
-  border: 1px solid red;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -309,7 +302,6 @@
 }
 
 .footer__columns_content_copyright {
-  border: 1px solid red;
   display: flex;
   flex-basis: 711px;
   flex-direction: column;
@@ -317,32 +309,46 @@
 }
 
 .logo_place_footer {
-  border: 1px solid red;
   width: 228px;
   height: 32px;
 }
 
 .footer__author {
-  border: 1px solid red;
   color: white;
+  margin: 18px auto 18px 0px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
-.footer__columns_content_info {
-  border: 1px solid red;
-}
+.footer__columns_content_info {}
 
-.footer__content_social {
-  border: 1px solid red;
-}
-
-
-
-/*border: 1px solid red;*/
-
-/* и элемента с модификатором вида ключ-значение 
-.table__cell_theme_dark {
-  width: 200px;
+.footer__column-heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
   color: white;
-  margin-right: 0;
-  margin-top: 80px;
+  margin: 0 auto 20px auto;
+}
+
+.footer__content_social {}
+
+.footer__column-links {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+  list-style: none;
+  margin: 0 0 16px;
+  padding: 0;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.footer__column-link {
+  text-decoration: none;
+  color: white;
 }
