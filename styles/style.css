@@ -226,10 +226,10 @@
   flex-direction: column;
   margin: 0;
   background-color: #1f1f1f;
-  z-index: 0;
+  z-index: 1;
 }
 
-.title__theme_dark {
+.kaufman__title_theme_dark {
   width: 60%;
   text-align: center;
   line-height: 1.15;
@@ -239,7 +239,7 @@
   color: white;
 }
 
-.subtitle__theme_dark {
+.kaufman__subtitle_theme_dark {
   width: 60%;
   text-align: center;
   line-height: 34px;
@@ -249,7 +249,7 @@
   color: white;
 }
 
-.table_theme_dark {
+.kaufman__table_theme_dark {
   width: 1100px;
   display: flex;
   list-style-type: none;
@@ -259,13 +259,13 @@
   flex-wrap: wrap;
 }
 
-.table__cell_theme_dark {
+.kaufman__table-cell_theme_dark {
   width: 200px;
   margin-right: 0;
   margin-top: 80px;
 }
 
-.table__heading_theme_dark {
+.kaufman__table-heading_theme_dark {
   color: white;
   line-height: 1.15;
   font-size: 24px;
@@ -273,7 +273,7 @@
   margin: 0px auto;
 }
 
-.table__text_theme_dark {
+.kaufman__table-text_theme_dark {
   color: white;
   line-height: 1.2;
   font-size: 18px;
