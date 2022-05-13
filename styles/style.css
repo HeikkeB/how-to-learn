@@ -142,7 +142,7 @@
   margin: 0;
 }*/
 
-.table {
+/*.table {
   width: 1100px;
   display: flex;
   justify-content: space-between;
@@ -151,27 +151,27 @@
   margin-bottom: 0;
   padding: 0;
   list-style-type: none;
-}
+}*/
 
-.table__cell {
+/*.table__cell {
   width: 250px;
   margin: 60px 0 0;
-}
+}*/
 
-.table__heading {
+/*.table__heading {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
   margin: 0;
   padding: 0;
-}
+}*/
 
-.table__text {
+/*.table__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
   margin: 20px 0 0;
-}
+}*/
 
 /*.feynman {
   min-height: 790px;
@@ -216,7 +216,7 @@
   top: 50%;
 }*/
 
-.kaufman {
+/*.kaufman {
   display: flex;
   position: relative;
   align-items: center;
@@ -225,9 +225,9 @@
   margin: 0;
   background-color: #1f1f1f;
   z-index: 1;
-}
+}*/
 
-.section-title_theme_dark {
+/*.section-title_theme_dark {
   width: 60%;
   text-align: center;
   line-height: 1.15;
@@ -235,9 +235,9 @@
   font-weight: bold;
   margin: 90px auto 0px auto;
   color: white;
-}
+}*/
 
-.section-subtitle_theme_dark {
+/*.section-subtitle_theme_dark {
   width: 60%;
   text-align: center;
   line-height: 34px;
@@ -245,9 +245,9 @@
   font-weight: normal;
   margin: 20px auto 0px auto;
   color: white;
-}
+}*/
 
-.table_theme_dark {
+/*.table_theme_dark {
   width: 1100px;
   display: flex;
   list-style-type: none;
@@ -255,31 +255,31 @@
   padding: 0;
   justify-content: space-between;
   flex-wrap: wrap;
-}
+}*/
 
-.table__cell_theme_dark {
+/*.table__cell_theme_dark {
   width: 200px;
   margin-right: 0;
   margin-top: 80px;
-}
+}*/
 
-.table__heading_theme_dark {
+/*.table__heading_theme_dark {
   color: white;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
   margin: 0px auto;
-}
+}*/
 
-.table__text_theme_dark {
+/*.table__text_theme_dark {
   color: white;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
   margin: 20px auto 0 auto;
-}
+}*/
 
-.kaufman__triangle {
+/*.kaufman__triangle {
   background-image: url('../images/kaufman-triangle.svg');
   background-size: cover;
   position: absolute;
@@ -288,15 +288,15 @@
   width: 877px;
   height: 877px;
   z-index: -1;
-}
+}*/
 
-.footer {
+/*.footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
   min-height: 350px;
   background-color: #1f1f1f;
-}
+}*/
 
 .footer__columns {
   display: flex;
