@@ -1,0 +1,11 @@
+.video__iframe {
+    border: 1px solid red;
+    height: 316px;
+    width: 515px;
+    transform: translate(0, 50px);
+    margin-right: 20px;
+}
+
+.video__iframe:last-of-type {
+    margin-right: 0;
+}
