@@ -1,6 +1,5 @@
 .video__iframes {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     z-index: 2;
