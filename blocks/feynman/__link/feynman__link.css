@@ -4,13 +4,13 @@
     font-size: 36px;
     font-weight: normal;
     text-decoration: none;
-    align-self: flex-end;
     position: absolute;
     right: 48px;
     top: 50%;
+    transition: opacity .8s ease;
 }
 
 .feynman__link:hover {
-    transition: opacity .6s ease-in;
+    transition: opacity .4s ease;
     opacity: 0.6;
 }
